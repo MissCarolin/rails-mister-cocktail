@@ -10,16 +10,22 @@ Cocktail.destroy_all
 Ingredient.destroy_all
 puts "successfully destroyed"
 
-Ingredient.create(name: "ice")
+Ingredient.create(name: "Ice")
 Ingredient.create(name: "Chocolate liqueur")
-Ingredient.create(name: "gin")
+Ingredient.create(name: "Gin")
 Ingredient.create(name: "Espresso")
 Ingredient.create(name: "Peach nectar")
 Ingredient.create(name: "Ginger")
+Ingredient.create(name: "Basil leaves")
+Ingredient.create(name: "Lemon Juice")
+Ingredient.create(name: "Sugar syrup")
+Ingredient.create(name: "Crushed ice")
+Ingredient.create(name: "Pineapple nectar")
+Ingredient.create(name: "Wodka")
 puts "ingredients created"
 
-Cocktail.create(name: "Basil Smash")
-Cocktail.create(name: "Cuba Libre")
-Cocktail.create(name: "Honey Pot")
-Cocktail.create(name: "Pina Colada")
-puts "cocktails created"
+# Cocktail.create(name: "Basil Smash")
+# Cocktail.create(name: "Cuba Libre")
+# Cocktail.create(name: "Honey Pot")
+# Cocktail.create(name: "Pina Colada")
+# puts "cocktails created"
