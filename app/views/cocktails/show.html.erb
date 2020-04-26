@@ -4,13 +4,21 @@
   <strong><%= @cocktail.name %></strong>
 </p>
 
+<div class="ingredients_with_delete">
 <div class="ingredients">
   <p>
     <% @cocktail.doses.each do |dose| %>
-    <%= dose.description %> <%= dose.ingredient.name %> <%= link_to 'Delete', dose_path(dose), method: :delete %>
+    <%= dose.description %> <%= dose.ingredient.name %>
     <br>
     <% end %>
   </p>
+</div>
+<div class="x">
+    <% @cocktail.doses.each do |dose| %>
+    <%= link_to image_tag('x', size: "12x12", class: "delete_image_ingredients"), dose_path(dose), method: :delete %>
+    <br>
+    <% end %>
+</div>
 </div>
 
 <div class="links_cocktail_new">
