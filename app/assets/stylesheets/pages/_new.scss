@@ -4,12 +4,20 @@ p {
 
 .container_new {
   // max-width: 425px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
   background-size: cover;
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
+.wrapper {
+  padding: 20px;
+  max-width: 350px;
+  background: rgba(255,255,255,0.80);
+  box-shadow: 0 0 0 9px rgba(0,0,0,0.1);
 }
 
 .headline_cocktail {
