@@ -7,9 +7,8 @@
 
     <div class="ingredients_with_delete">
       <div class="ingredients">
-        <p>
-          <% @cocktail.doses.each do |dose| %>
-          <%= dose.description %> <%= dose.ingredient.name %>
+        <% @cocktail.doses.each do |dose| %>
+          <p class="ingredient" data-dose-id="<%= dose.id%>" id="dose-<%= dose.id%>" ><%= dose.description %> <%= dose.ingredient.name  %>
           <br>
           <% end %>
         </p>
@@ -23,8 +22,8 @@
     </div>
 
     <div class="links_cocktail_new">
-      <%= link_to 'Add an Ingredient', new_cocktail_dose_path(@cocktail) %><br>
-      <%= link_to 'Show all Cocktails', cocktails_path %>
+      <%= link_to 'Add an Ingredient', new_cocktail_dose_path(@cocktail), class: "ingredient_link" %><br>
+      <%= link_to 'Show all Cocktails', cocktails_path, class: "show_cocktails_link" %>
     </div>
   </div>
 </div>
