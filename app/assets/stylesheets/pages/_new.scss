@@ -50,6 +50,7 @@ p {
   opacity: 0;
   transition: all 1s;
   transform: translateY(50%) scale(0.97);
+  transition-delay: 0.2s;
 }
 
 .ingredient.activenew {
