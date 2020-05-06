@@ -8,7 +8,7 @@ const slider = () => {
   const doses = [...document.querySelectorAll('[data-dose-id]')]
   window.addEventListener('mouseover', (event) => {
     doses.map(dose => {
-      const targetId = dose.dataset.doseId
+      // const targetId = dose.dataset.doseId
       // const targetDose = document.getElementById(`dose-${targetId}`)
       dose.classList.add('activenew')
       console.log(dose)
