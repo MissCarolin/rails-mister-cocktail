@@ -78,30 +78,33 @@ p {
 }
 
 .ingredient_link {
-  font-size: 15px;;
+  font-size: 13px;;
   color: grey;
   text-shadow: 0px 0.2px 0px rgba(0, 0, 0, 0.3);
   text-align: center;
   font-weight: 200;
   Font-family: roboto;
   letter-spacing: 1px;
-  border: 1px solid #a4db57;
+  border: 1px solid #a4db5796;
   padding: 1px 5px;
   border-radius: 20px;
 
 }
 
 .show_cocktails_link {
-  font-size: 15px;;
+  font-size: 12px;;
   color: grey;
   text-shadow: 0px 0.2px 0px rgba(0, 0, 0, 0.3);
   text-align: center;
   font-weight: 200;
   Font-family: roboto;
   letter-spacing: 1px;
-  border: 1px solid #a4db57;
+  border: 1px solid #a4db5796;
   padding: 1px 5px;
   border-radius: 20px;
+  display: block;
+  width: 70%;
+  margin: 5px auto 0px;
 }
 
 .ingredient_link:hover {
