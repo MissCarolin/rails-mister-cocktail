@@ -16,7 +16,7 @@
 // const imagePath = (name) => images(name, true)
 
 import 'bootstrap';
-import { slider } from './slider';
+import { slider } from '../components/slider';
 
 slider();
 
