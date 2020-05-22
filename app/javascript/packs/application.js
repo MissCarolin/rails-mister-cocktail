@@ -17,8 +17,15 @@
 
 import 'bootstrap';
 import { slider } from '../components/slider';
+import { loadDynamicBannerText } from '../components/banner';
 
-slider();
+document.addEventListener('turbolinks:load', () => {
+  // Call your JS functions here
+  // [...]
+  slider();
+  loadDynamicBannerText();
+});
+
 
 
 console.log('Hello World from Webpacker')

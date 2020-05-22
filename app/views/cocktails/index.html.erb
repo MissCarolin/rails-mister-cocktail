@@ -7,7 +7,9 @@
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('<%= image_path 'banner_cocktail.jpg' %>');">
     <div class="container">
      <h1>Cocktails</h1>
-     <br><p>Mix your own, Baby</p>
+     <br><p>
+       <span id="banner-typed-text"></span>
+   </p>
     </div>
   </div>
   <%= link_to 'Add a Cocktail', new_cocktail_path, { class: "add_cocktail_link" } %>
@@ -30,5 +32,7 @@
 </html>
 
 <div>
+
+  <!-- onclick: "cocktail_path(cocktail).location.reload()" -->
 
 

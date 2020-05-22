@@ -5,6 +5,7 @@ const slider = () => {
   });
 
 
+
   const doses = [...document.querySelectorAll('[data-dose-id]')]
   window.addEventListener('load', (event) => {
     doses.map(dose => {
