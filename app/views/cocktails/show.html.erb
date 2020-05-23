@@ -1,4 +1,6 @@
-  <div class="container_new" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('<%= cl_image_path(@cocktail.photo.key, crop: :fill) %>')">
+  <div class="cocktail_container" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('<%= cl_image_path(@cocktail.photo.key, crop: :fill) %>')">
+        <%= link_to image_tag('cocktail_white', class: "home_button"), cocktails_path %>
+  <div class="container_new">
     <div class="wrapper">
       <p class="headline_cocktail">
         <strong><%= @cocktail.name %></strong>
@@ -21,10 +23,10 @@
       </div>
 
       <div class="links_cocktail_new">
-        <%= link_to 'Add an Ingredient', new_cocktail_dose_path(@cocktail), class: "ingredient_link" %>
-        <%= link_to 'All Cocktails', cocktails_path, class: "show_cocktails_link" %>
-        <%= link_to 'Delete Cocktail', cocktail_path(@cocktail), method: :delete, data: {confirm: 'are you sure?'}, class: "show_cocktails_link" %>
-      </div>
+        <%= link_to image_tag('plus', class: "ingredient_link"), new_cocktail_dose_path(@cocktail)%>
+<!--         <%= link_to 'Delete Cocktail', cocktail_path(@cocktail), method: :delete, data: {confirm: 'are you sure?'}, class: "delete_cocktails_link" %>
+ -->      </div>
+    </div>
     </div>
   </div>
 
