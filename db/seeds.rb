@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 puts "destroying cocktais and ingredients"
-Cocktail.destroy_all
+# Cocktail.destroy_all
 Ingredient.destroy_all
 puts "successfully destroyed"
 
