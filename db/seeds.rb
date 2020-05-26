@@ -39,9 +39,7 @@ Ingredient.create(name: "pineapple juice")
 Ingredient.create(name: "coconut cream")
 Ingredient.create(name: "dry vermouth")
 Ingredient.create(name: "olives")
-Ingredient.create(name: "mango mousse")
-Ingredient.create(name: "sparkling water")
-Ingredient.create(name: "lime juice")
+Ingredient.create(name: "orange juice")
 puts "ingredients created"
 
 # Cocktail.create(name: "Basil Smash")
