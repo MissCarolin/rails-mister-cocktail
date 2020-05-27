@@ -113,7 +113,13 @@ p {
 }
 
 .home_button:hover {
-  // background: white;
+  margin: 12px;
+  // background-image: asset-url('cocktail_rosa.png');
+  // background-size: cover;
+  background: rgb(226, 165, 154);
+  border-radius: 15px;
+  height: 40px;
+  width: 45px;;
 }
 
 .ingredient_link:hover {
