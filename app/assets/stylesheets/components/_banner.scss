@@ -5,6 +5,7 @@
   object-fit: cover;
   object-position: center;
   padding-bottom: 50px;
+  position: relative;
 
 
    h1 {
@@ -27,16 +28,11 @@
     Font-family: amatic SC;
     letter-spacing: 5px;
     margin: 15px;
-}
+    margin-top: 21px;
+    margin-bottom: 0;
+  }
 }
 
-.banner  {
-  // width: 100%;
-  // height: 500px;
-  object-fit: cover;
-  object-position: center;
-  position: relative;
-}
 
 .add_cocktail_link {
   // text-align: center;
@@ -60,6 +56,7 @@
   background: rgba(253, 251, 251, 0.5);
   border-radius: 28%;
   padding: 1px;
+  margin-top: 13px
 }
 
 .add_cocktail_link:hover {
