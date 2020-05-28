@@ -16,3 +16,24 @@
   color: floralwhite;
   text-decoration: none;
 }// Specific CSS for your home-page
+
+.home_button {
+    margin: 12px;
+    background: rgb(226, 165, 154);
+    border-radius: 32px;
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+}
+
+.home_button:hover {
+  margin: 12px;
+  // background-image: asset-url('cocktail_rosa.png');
+  // background-size: cover;
+  background: rgb(226, 165, 154);
+  border-radius: 15px;
+  height: 40px;
+  width: 45px;;
+}
