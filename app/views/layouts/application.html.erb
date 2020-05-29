@@ -14,12 +14,6 @@
 
   <body>
 
-<!-- <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('<%= image_path 'banner_cocktail.jpg' %>');">
-    <div class="container">
-     <h1>Cocktails</h1>
-     <br><p>Mix your own, Baby</p>
-    </div>
-  </div> -->
     <%= yield %>
        <%= link_to image_tag('cocktail_white', class: "home_button"), cocktails_path %>
 <!--   <body onload="javascript:slider();">
