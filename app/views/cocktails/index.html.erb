@@ -28,7 +28,7 @@
      <div class="row">
       <div class="col-12">
         <%= link_to cocktail_path(cocktail), class: "cocktail_link" do %>
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('<%= cl_image_path(cocktail.photo.key, crop: :fill) %>')">
+        <div class="card-category" style="background-image: /*linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)),*/ url('<%= cl_image_path(cocktail.photo.key, crop: :fill) %>')">
          <%= cocktail.name %>
        </div>
        <% end %>
