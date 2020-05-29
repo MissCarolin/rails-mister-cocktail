@@ -9,33 +9,33 @@
       <div class="container">
         <div class="field">
         </div>
-       <h2>Let's</h2>
-       <h1>MIX IT</h1>
-       <br>
-       <%= link_to image_tag('add_cocktail', class: "add_cocktail_link"), new_cocktail_path %>
-       <p>
+        <h2>Let's</h2>
+        <h1>MIX IT</h1>
+        <br>
+        <%= link_to image_tag('add_cocktail', class: "add_cocktail_link"), new_cocktail_path %>
+        <p>
          <span id="banner-typed-text"></span>
        </p>
      </div>
    </div>
 
-<div class="text-inbetween">
-  <p>OUR FAVORITES</p>
-</div>
+   <div class="text-inbetween">
+    <p>OUR FAVORITES</p>
+  </div>
 
-   <div class="cards">
-     <% @cocktails.each do |cocktail| %>
-     <div class="row">
-      <div class="col-12">
-        <%= link_to cocktail_path(cocktail), class: "cocktail_link" do %>
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('<%= cl_image_path(cocktail.photo.key, crop: :fill) %>')">
-         <%= cocktail.name %>
-       </div>
-       <% end %>
+  <!-- <div class="cards">
+   <% @cocktails.each do |cocktail| %>
+   <div class="row">
+    <div class="col-12">
+      <%= link_to cocktail_path(cocktail), class: "cocktail_link" do %>
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('<%= cl_image_path(cocktail.photo.key, crop: :fill) %>')">
+       <%= cocktail.name %>
      </div>
+     <% end %>
    </div>
-   <% end %>
- </div >
+ </div>
+ <% end %>
+</div > -->
 </div>
 </body>
 </html>
