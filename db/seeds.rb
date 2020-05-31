@@ -86,6 +86,44 @@ dose3 = Dose.create(cocktail_id: cocktail1.id, ingredient_id: ingredient8.id, de
 dose5 = Dose.create(cocktail_id: cocktail1.id, ingredient_id: ingredient9.id, description: '15 ml');
 dose4 = Dose.create(cocktail_id: cocktail1.id, ingredient_id: ingredient1.id, description: '2-3 cubes of');
 
+Dose.create(cocktail_id: cocktail2.id, ingredient_id: ingredient19.id, description: '45 ml');
+Dose.create(cocktail_id: cocktail2.id, ingredient_id: ingredient18.id, description: '15 ml');
+Dose.create(cocktail_id: cocktail2.id, ingredient_id: ingredient17.id, description: '30 ml');
+Dose.create(cocktail_id: cocktail2.id, ingredient_id: ingredient16.id, description: '10 ml');
+Dose.create(cocktail_id: cocktail2.id, ingredient_id: ingredient10.id, description: 'some');
+
+Dose.create(cocktail_id: cocktail3.id, ingredient_id: ingredient20.id, description: '3');
+Dose.create(cocktail_id: cocktail3.id, ingredient_id: ingredient21.id, description: '4');
+Dose.create(cocktail_id: cocktail3.id, ingredient_id: ingredient9.id, description: '2.5 cl');
+Dose.create(cocktail_id: cocktail3.id, ingredient_id: ingredient22.id, description: '6 cl');
+
+Dose.create(cocktail_id: cocktail4.id, ingredient_id: ingredient3.id, description: '2 cl');
+Dose.create(cocktail_id: cocktail4.id, ingredient_id: ingredient24.id, description: '2 cl');
+Dose.create(cocktail_id: cocktail4.id, ingredient_id: ingredient25.id, description: '2 cl');
+Dose.create(cocktail_id: cocktail4.id, ingredient_id: ingredient1.id, description: 'some cubes of');
+
+Dose.create(cocktail_id: cocktail5.id, ingredient_id: ingredient11.id, description: '120 ml');
+Dose.create(cocktail_id: cocktail5.id, ingredient_id: ingredient27.id, description: '60 ml');
+Dose.create(cocktail_id: cocktail5.id, ingredient_id: ingredient13.id, description: '60 ml');
+
+Dose.create(cocktail_id: cocktail6.id, ingredient_id: ingredient26.id, description: '180 ml');
+Dose.create(cocktail_id: cocktail6.id, ingredient_id: ingredient30.id, description: '180 ml');
+Dose.create(cocktail_id: cocktail6.id, ingredient_id: ingredient12.id, description: '120 ml');
+Dose.create(cocktail_id: cocktail6.id, ingredient_id: ingredient21.id, description: 'some');
+Dose.create(cocktail_id: cocktail6.id, ingredient_id: ingredient1.id, description: 'some');
+
+Dose.create(cocktail_id: cocktail7.id, ingredient_id: ingredient12.id, description: '4 cl');
+Dose.create(cocktail_id: cocktail7.id, ingredient_id: ingredient16.id, description: '1 cl');
+Dose.create(cocktail_id: cocktail7.id, ingredient_id: ingredient15.id, description: 'fill up the rest with');
+
+Dose.create(cocktail_id: cocktail8.id, ingredient_id: ingredient13.id, description: '6 cl');
+Dose.create(cocktail_id: cocktail8.id, ingredient_id: ingredient16.id, description: '2 cl');
+Dose.create(cocktail_id: cocktail8.id, ingredient_id: ingredient14.id, description: '12 cl');
+
+Dose.create(cocktail_id: cocktail9.id, ingredient_id: ingredient3.id, description: '7 cl');
+Dose.create(cocktail_id: cocktail9.id, ingredient_id: ingredient28.id, description: '1 cl');
+Dose.create(cocktail_id: cocktail9.id, ingredient_id: ingredient29.id, description: 'some');
+Dose.create(cocktail_id: cocktail9.id, ingredient_id: ingredient1.id, description: 'some cubes of');
 
 
 
