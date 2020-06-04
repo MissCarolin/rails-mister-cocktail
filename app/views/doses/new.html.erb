@@ -1,5 +1,11 @@
-<h1>Add an Ingredient</h1>
+<div class="hintergrund_cocktail_container_header">
+  <div class="hintergrund_cocktail_container">
+    <div class="container_cocktail_form">
+      <h2 class="ueberschrift_new_cocktail">Add an Ingredient</h2>
 
-<%= render 'form', dose: @dose %>
+      <%= render 'form', dose: @dose %>
 
-<%= link_to 'See List of Ingredients', cocktail_path(@cocktail) %>
+      <%= link_to 'Back to Cocktail', cocktail_path(@cocktail), class: "ingredient_list_link" %>
+    </div>
+  </div>
+</div>
