@@ -1,22 +1,3 @@
-.ueberschrift_new_cocktail {
-  text-align: center;
-  font-size: 41px;
-  Font-family: amatic SC;
-  color: $bordeaux;
-}
-
-label {
-  color: whitesmoke;
-}
-
-input #file-upload-button {
-  border-color: 1px solid red;
-
-}
-
-.form-control-file {
-  color: whitesmoke;
-}
 
 .hintergrund_cocktail_container_header {
   background-image: linear-gradient(to bottom, rgba(255,255,255,0.4) 0%,rgba(255,255,255,0.3) 100%) ,asset-url('banner_cocktail.jpg');
@@ -36,10 +17,29 @@ input #file-upload-button {
   max-width: 425px;
   margin-left: auto;
   margin-right: auto;
+
+  h2 {
+    text-align: center;
+    font-size: 41px;
+    Font-family: amatic SC;
+    color: $bordeaux;
+  }
 }
 
 .form-inputs {
   font-size: 15px;
+
+  label {
+    color: whitesmoke;
+  }
+
+  input #file-upload-button {
+    border-color: 1px solid red;
+  }
+}
+
+.form-control-file {
+  color: whitesmoke;
 }
 
 .form-actions {
