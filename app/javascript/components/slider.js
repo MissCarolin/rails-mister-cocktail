@@ -2,7 +2,7 @@ const slider = () => {
   const headline = document.querySelector('.headline_cocktail')
   window.addEventListener('load', (event)  => {
   headline.classList.add('active');
-  });
+});
 
 
 
@@ -14,7 +14,7 @@ const slider = () => {
       dose.classList.add('activenew')
       console.log(dose)
     })
-    });
+  });
   // window.addEventListener('onpagehide', (event)  => {
   //   headline.classList.remove('active');
   // });
