@@ -2,23 +2,31 @@
   position: absolute;
   // bottom: 0;
   width: 100%;
-  height: 3.6rem;
-  background-color: white;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
+  background-color: floralwhite;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
+
 .footer-links {
   display: flex;
   justify-content: center;
-}
-.footer-links a {
+
+  .link_text {
+    font-family: amatic SC;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+   a {
   color: $bordeaux;
   opacity: 0.5;
   text-decoration: none;
   font-size: 17px;
   padding: 0px 10px;
-}
-.footer-links a:hover {
-  opacity: 1;
+
+    &:hover {
+    opacity: 1;
+    }
+  }
 }
 
