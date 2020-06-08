@@ -1,5 +1,6 @@
 const slider = () => {
   const headline = document.querySelector('.headline_cocktail')
+if (window.location.pathname != '/cocktails' || '') {
   window.addEventListener('load', (event)  => {
   headline.classList.add('active');
 });
@@ -17,6 +18,7 @@ const slider = () => {
   // window.addEventListener('onpagehide', (event)  => {
   //   headline.classList.remove('active');
   // });
+  }
 }
 
 
