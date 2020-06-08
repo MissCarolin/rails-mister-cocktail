@@ -12,7 +12,6 @@ const slider = () => {
       // const targetId = dose.dataset.doseId
       // const targetDose = document.getElementById(`dose-${targetId}`)
       dose.classList.add('activenew')
-      console.log(dose)
     })
   });
   // window.addEventListener('onpagehide', (event)  => {
