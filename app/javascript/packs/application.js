@@ -22,7 +22,6 @@ import { updateNavbarScroll } from '../components/navbar';
 
 
 document.addEventListener('turbolinks:load', () => {
-  // Call your JS functions here
 
   slider();
   updateNavbarScroll();

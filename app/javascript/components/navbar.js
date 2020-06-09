@@ -7,7 +7,9 @@ const updateNavbarScroll = () => {
 
   // console.log(topOfCards, window.scrollY)
 
-  const activeNav = () => {
+
+   const activeNav = () => {
+     // if (window.location.pathname == '/cocktails' || '') {
      if (window.scrollY >= topOfCards) {
       navbar.classList.add('navbar-active');
      } else {
@@ -15,21 +17,8 @@ const updateNavbarScroll = () => {
      }
     }
     window.addEventListener('scroll', activeNav)
-}
+  }
+// }
 
 
-  // const nav = document.querySelector('#main');
-  // const topOfNav = nav.offsetTop;
-
-  // const fixNav = () => {
-  //   if(window.scrollY >= topOfNav) {
-  //     document.body.style.paddingTop = nav.offsetHeight + 'px';
-  //     document.body.classList.add('fixed-nav')
-  //   } else {
-  //     document.body.classList.remove('fixed-nav')
-  //     document.body.style.paddingTop = 0;
-  //   }
-  // }
-
-  // window.addEventListener('scroll', fixNav);
 export { updateNavbarScroll };
