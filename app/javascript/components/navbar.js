@@ -5,7 +5,7 @@ const updateNavbarScroll = () => {
   const cards = document.querySelector('.cards')
   const topOfCards = cards.offsetTop;
 
-  console.log(topOfCards, window.scrollY)
+  // console.log(topOfCards, window.scrollY)
 
   const activeNav = () => {
      if (window.scrollY >= topOfCards) {
