@@ -18,10 +18,13 @@
 import 'bootstrap';
 import { slider } from '../components/slider';
 import { loadDynamicBannerText } from '../components/banner';
+import { updateNavbarScroll } from '../components/navbar';
+
 
 // document.addEventListener('turbolinks:load', () => {
 //   // Call your JS functions here
   // [...]
+  updateNavbarScroll();
   slider();
   loadDynamicBannerText();
 // });

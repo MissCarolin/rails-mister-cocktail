@@ -1,4 +1,23 @@
 
+
+const updateNavbarScroll = () => {
+
+  const cards = document.querySelector('.cards')
+  const topOfCards = cards.offsetTop;
+
+  console.log(topOfCards, window.scrollY)
+
+  const activeNav = () => {
+     if (window.scrollY >= topOfCards) {
+      navbar.classList.add('navbar-active');
+     } else {
+      navbar.classList.remove('navbar-active')
+     }
+    }
+    window.addEventListener('scroll', activeNav)
+}
+
+
   // const nav = document.querySelector('#main');
   // const topOfNav = nav.offsetTop;
 
@@ -13,3 +32,4 @@
   // }
 
   // window.addEventListener('scroll', fixNav);
+export { updateNavbarScroll };
