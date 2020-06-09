@@ -16,9 +16,8 @@
 
 
   <%= yield %>
-  <nav id="main">
-    <%= link_to image_tag('cocktail_white', class: "home_button"), cocktails_path %>
-  </nav>
+  <%= render 'shared/footer' %>
+
 <!--   <body onload="javascript:slider();">
  -->  </body>
 </html>
