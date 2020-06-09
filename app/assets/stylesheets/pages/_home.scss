@@ -27,21 +27,4 @@ p {
   }
 }
 
-.home_button {
-  margin: 10px;
-  background: rgb(226, 165, 154);
-  border-radius: 32px;
-  width: 45px;
-  height: 40px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
 
-  &:hover {
-    margin: 12px;
-    background: rgb(226, 165, 154);
-    border-radius: 15px;
-    height: 40px;
-    width: 45px;;
-  }
-}
