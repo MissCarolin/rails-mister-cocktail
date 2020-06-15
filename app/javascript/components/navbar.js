@@ -3,17 +3,21 @@
 const updateNavbarScroll = () => {
 
   const cards = document.querySelector('.cards')
-  const topOfCards = cards.offsetTop;
+  const navbar_index = document.querySelector('#navbar')
 
-  // console.log(topOfCards, window.scrollY)
-
-
-   const activeNav = () => {
      // if (window.location.pathname == '/cocktails' || '') {
-     if (window.scrollY >= topOfCards) {
-      navbar.classList.add('navbar-active');
+  if (!cards || !navbar_index) {
+    return;
+  }
+  const topOfCards = cards.offsetTop
+
+
+
+  const activeNav = () => {
+    if (window.scrollY >= topOfCards) {
+      navbar_index.classList.add('navbar-active');
      } else {
-      navbar.classList.remove('navbar-active')
+      navbar_index.classList.remove('navbar-active')
      }
     }
     window.addEventListener('scroll', activeNav)
