@@ -21,11 +21,11 @@ import { loadDynamicBannerText } from '../components/banner';
 import { updateNavbarScroll } from '../components/navbar';
 
 
-// document.addEventListener('turbolinks:load', () => {
+document.addEventListener('turbolinks:load', () => {
   slider();
   updateNavbarScroll();
   loadDynamicBannerText();
-// });
+});
 
 
 
