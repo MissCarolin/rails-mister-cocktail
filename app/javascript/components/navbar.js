@@ -8,10 +8,9 @@ const updateNavbarScroll = () => {
      // if (window.location.pathname == '/cocktails' || '') {
   if (!cards || !navbar_index) {
     return;
-  }
+  } else {
+
   const topOfCards = cards.offsetTop
-
-
 
   const activeNav = () => {
     if (window.scrollY >= topOfCards) {
@@ -22,7 +21,7 @@ const updateNavbarScroll = () => {
     }
     window.addEventListener('scroll', activeNav)
   }
-// }
+}
 
 
 export { updateNavbarScroll };
