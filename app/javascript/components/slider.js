@@ -24,7 +24,7 @@ const slider = () => {
   if (window.location.pathname ==='/cocktails' || '') {
     console.log('path find')
     return
-  } else {
+  }
 
 
     window.addEventListener('load', (event) => {
@@ -39,7 +39,6 @@ const slider = () => {
     });
 
     console.log('slide success')
-  }
 }
 
 

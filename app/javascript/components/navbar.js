@@ -5,6 +5,7 @@ const updateNavbarScroll = () => {
   const cards = document.querySelector('.cards')
   const navbar_index = document.querySelector('#navbar')
 
+
   if (!cards || !navbar_index) {
     return false;
   }
