@@ -5,10 +5,9 @@ const updateNavbarScroll = () => {
   const cards = document.querySelector('.cards')
   const navbar_index = document.querySelector('#navbar')
 
-     // if (window.location.pathname == '/cocktails' || '') {
   if (!cards || !navbar_index) {
-    return;
-  } else {
+    return false;
+  }
 
   const topOfCards = cards.offsetTop
 
@@ -20,7 +19,7 @@ const updateNavbarScroll = () => {
      }
     }
     window.addEventListener('scroll', activeNav)
-  }
+
 }
 
 
